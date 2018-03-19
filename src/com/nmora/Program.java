@@ -10,7 +10,7 @@ public class Program {
 		try {
 			File.createTempFile("", null);
 		} catch (Exception erreur) {
-			erreur.printStackTrace();
+			erreur.printStackTrace();;
 		}
 	}
 
